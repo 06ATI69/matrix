@@ -1,5 +1,6 @@
 /* ==== THE PAGE & BACKGROUND FOTO STYLES ==== */
 
+
 .page {
   height:                   100vh;
   width:                    75vw;
@@ -19,7 +20,21 @@
 }
 
 
+/* ==== CONTAINER-FOTO1 STYLES ==== */
+
+
+.container-foto1 {
+  max-width: 85%;
+  height: 20rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* ==== BASE STYLES ==== */
+
 
 * {
     box-sizing:             border-box;
@@ -55,33 +70,41 @@ a :hover {
 /* ==== FOTOS PLACE & STYLES ==== */
 
 
-
 #foto1 {
   max-width:                 18.4rem;
-  float:                     left;
-  position:                  relative;
   margin:                    13px;
   border-radius:             1rem;
 }
 
 #foto2 {
-  max-width:                 18.75rem;
-  float:                     right;
-  position:                  relative;
-  margin:                    10px;
+  width:                     21.5rem;
+  padding:                   10px;
   border-radius:             1rem;
   
 }
 
 #foto1:hover {
-  box-shadow:                6px 6px 3px 0 green;
+  box-shadow:                6px 6px 3px 0 #00cc00;
   transform:                 scale(1.0);
 }
 
 #foto2:hover {
-  box-shadow:                6px 6px 3px 0 green;
+  box-shadow:                6px 6px 3px 0 #00cc00;
   transform:                 scale(1);
 }
+
+
+/* ==== CONTAINER-FOTO2 STYLES ==== */
+
+
+#container-foto2 {
+  
+  width:                    100%;
+  display:                  flex;
+  justify-content:          center;
+  align-items:              center;
+ }
+  
 
 /* ==== TABLE STYLES ==== */
 
@@ -101,7 +124,7 @@ table, th, td, caption {
   font-family:                "Courier New", Courier, monospace;
 }
 th {
-  background-color:           green;
+  background-color:           #00b300;
 }
 td {
   text-align:                 center;
